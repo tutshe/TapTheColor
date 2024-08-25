@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/instruction"
+        android:id="@+id/iInstruction"
+        android:icon="@drawable/outline_app_settings_alt_24"/>
+    <item android:title="@string/home"
+        android:id="@+id/iCover"
+        android:icon="@drawable/baseline_chalet_24"/>
+    <item android:title="@string/login"
+        android:id="@+id/iLogin"
+        android:icon="@drawable/baseline_contact_page_24"/>/>
+    <item android:title="@string/exit"
+        android:id="@+id/iExit"
+        android:icon="@drawable/baseline_checklist_24"/>
+</menu>

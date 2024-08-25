@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tap the Color</string>
+    <string name="for_instructions_click_on_this_link"><u>For Instructions click on this link</u></string>
+    <string name="the_goal_of_the_game">The goal of the game is to tap the correct color as quickly as possible. The game will display a color name (e.g., \"RED\"), but the color of the text may not match the name (e.g., \"RED\" might be written in blue). The player has to quickly tap the correct colored button.</string>
+    <string name="instructions">Instructions</string>
+    <string name="goal">Goal:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="exit">Exit</string>
+    <string name="instruction">Instruction</string>
+    <string name="login">Login</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:id="@+id/tvLogTitle"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textColor="#5E35B1"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login" />
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User Name"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp" />
+
+        <EditText
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp"
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp"
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login" />
+
+        <TextView
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp"
+            android:id="@+id/tvRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account? Register here"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:textColor="@android:color/holo_blue_light" />
+    </LinearLayout>
+
+
+</FrameLayout>
